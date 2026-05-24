@@ -6,7 +6,7 @@
 
 ## 📖 Visão Geral
 
-O **Claude Code Skills Arsenal** é um instalador automatizado (`install-claude-agents.sh`) projetado para injetar 60 *skills* (agentes de contexto) customizadas diretamente na configuração local do seu Claude Code (`~/.claude/skills`).
+O **Claude Code Skills Arsenal** é um instalador automatizado (`install-claude-skills.sh`) projetado para injetar 60 *skills* (agentes de contexto) customizadas diretamente na configuração local do seu Claude Code (`~/.claude/skills`).
 
 Cada skill atua como uma injeção profunda de contexto, transformando o LLM padrão em um especialista ultra-focado com metodologias rigorosas, padrões arquiteturais modernos e restrições de qualidade (guardrails) pré-definidos. Em vez de escrever prompts longos a cada interação, você simplesmente invoca o especialista correto para o desafio atual.
 
@@ -124,17 +124,17 @@ O arsenal está dividido em domínios de expertise cirúrgica. Abaixo, a matriz 
 A instalação leva menos de 5 segundos. Nenhuma dependência externa é necessária, apenas um terminal Bash.
 
 1. **Faça o download do script:**
-Copie o arquivo `install-claude-agents.sh` para a sua máquina local.
+Copie o arquivo `install-claude-skills.sh` para a sua máquina local.
 2. **Dê permissão de execução:**
 ```bash
-chmod +x install-claude-agents.sh
+chmod +x install-claude-skills.sh
 
 ```
 
 
 3. **Execute o instalador:**
 ```bash
-./install-claude-agents.sh
+./install-claude-skills.sh
 
 ```
 
